@@ -1,0 +1,384 @@
+html{
+	width: 100%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.topicon{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding-right:5vw;
+}
+.HOME{
+    padding-right:2.343vw ;
+}
+.LIST{
+    padding-right:2.343vw ;
+}
+
+.navbar-nav {
+    color: #707070;
+}
+.nav-item{
+    display: flex;
+    justify-content: flex-start;
+    width: 7vw;
+    margin-top: 1.822vw;
+    padding-bottom:1.562vw;
+    margin-right: 2vw;
+    font-size: 1.562vw;
+    font-family:微軟正黑體;
+}
+.sign{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items:center;
+    color: #707070;
+    margin-top: 1.562vw;
+    margin-left: 27vw;
+}
+
+.nav-item2{
+    margin-right: 2.343vw;
+    font-size: 1.562vw;
+    font-family:微軟正黑體;
+}
+.line{
+    width: 0.104vw;
+    height: 1.302vw;
+    margin-right: 2.343vw;
+    background-color: #707070;
+}
+.big{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding-bottom: 2.343vw;
+}
+.big{
+    width: 100vw;
+}
+
+.longline{
+    width: 100vw;
+    height: 1vw;
+    background-color:#222020;
+}
+.NEW{
+    display: flex;
+    justify-content: center; 
+}
+
+.CAR{
+    padding-right:2.083vw ;
+}
+.title_word{
+    padding-top: 1.041vw;
+    padding-bottom: 1.562vw;
+    font-size: 4.557vw;
+    font-family: 微軟正黑體;
+    color: #707070;
+}
+
+
+.product img {
+    display: flex;
+    justify-content: center;
+    width:12.916vw;
+    height: 11.562vw;
+    margin-bottom:2vw;
+}
+.product .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.1458vw;
+    background-color: rgb(255, 255, 255);
+    border:0vw;
+}
+.product_name{
+    display: flex;
+    justify-content: center;
+    font-size: 1.041vw;
+    font-family: 微軟正黑體;
+}
+
+
+.word_list0
+{
+    display: flex;
+    flex-direction: row;
+}
+.word_list
+{
+    padding-top:0.781vw;
+    padding-left:4.687vw;
+    font-size: 1.041vw;
+    line-height:2.343vw;
+    color:#F7F7F7;
+    font-weight: bold;
+    font-family:微軟正黑體;
+}
+.word_list2
+{
+    display: flex;
+    flex-direction: row;
+    padding-top:2.604vw;
+    padding-left:18.229vw;
+    line-height:2.343vw;
+    font-size: 1.041vw;
+    font-weight:bold;
+    color:#F7F7F7;
+    font-family:微軟正黑體;
+}
+.icon{
+    display: flex;
+    flex-direction: row; 
+    padding-top:0.781vw;
+}
+.IG{
+    padding-right:2.083vw;
+}
+.LINE{
+    padding-right:2.083vw;
+}
+.wl3{
+    display: flex;
+    justify-content: flex-start;
+    padding-left:7.812vw;
+} 
+footer {
+	background-color: #EAB6C2;
+    margin-top:2.083vw ;
+    height: 13.020vw;
+}
+
+
+@media screen and (max-width:768px)
+{
+    .topicon{
+        padding-right: 5.208vw;
+    }
+    .HOME{
+        padding:2.213vw;
+    }
+    .LIST{
+        padding:0.651vw;
+    }
+    .CAR{
+        padding:1.562vw;
+    }
+    .nav-item{
+        display: flex;
+        justify-content: flex-start;
+        margin-top:0.001vw;
+        margin-right: 5.208vw;
+        font-size: 3.255vw;
+    }
+    .sign{
+        display: none;
+    }
+    .big{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2.604vw;
+    }
+    .longline{
+        width: 100vw;
+        height: 1.5vw;
+        background-color:#222020;
+    }
+    .title_word{
+        padding-top: 4vw;
+        padding-bottom: 1.562vw;
+        padding-left: 5vw;
+        font-size: 4.557vw;
+        color: #707070;
+    }
+
+    .container{
+       padding:0; 
+       margin:0;
+    }
+    .col-md-6{
+        display: flex;
+        justify-content: center;
+    }
+    .product img {
+        display: flex;
+        justify-content: center;
+        width:32vw;
+        height:30vw;
+        margin-bottom:1.562vw;
+    }
+    .product .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2.864vw;
+        background-color: rgb(255, 255, 255);
+        border:0px;
+    }
+    .product_name{
+        display: flex;
+        justify-content: center;
+        font-size:2vw;
+    }
+     .word_list0
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .word_list
+    {
+        width:15vw;
+        padding-top:1.5vw;
+        padding-left:5.208vw;
+        font-size: 1.953vw;
+        line-height:3.255vw;
+    }
+    .word_list2
+    {
+        display: flex;
+        flex-direction: row;
+        padding-top:1.5vw;
+        padding-left:10vw;
+        font-size: 1.953vw;
+        line-height:3.255vw;
+    }
+    .icon{
+        display: flex;
+        flex-direction: row; 
+        padding-top:1.953vw;
+    }
+    .IG{
+        padding-right:2.604vw;
+    }
+    .LINE{
+        padding-right:2.604vw;
+    }
+    .wl3{
+        width:50vw;
+        display: flex;
+        justify-content: flex-start;
+        padding-left:10vw;
+    } 
+    footer {
+        margin-top:5.208vw ;
+        height: 20.182vw;
+    }
+}
+@media screen and (max-width:320px)
+{
+    
+    .HOME{
+        padding-right:2vw;
+    }
+    .LIST{
+        padding-right:2vw;
+    }
+    .CAR{
+        padding-right:2vw;
+        padding-left:0;
+    }
+    .navbar-nav {
+       margin-top: 5VW;
+    }
+    .nav-item{
+        display: flex;
+        justify-content: flex-start;
+        margin-top:0.001vw;
+        margin-right: 5.208vw;
+        width: 15VW;
+        font-size: 3.255vw;
+    }
+    .big{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3vw;
+    }
+    .longline{
+        width: 100vw;
+        height: 1.5vw;
+        background-color:#222020;
+    }
+    .title_word{
+        padding-top: 1.302vw;
+        padding-bottom: 4vw;
+        padding-left: 0;
+        margin: 0;
+        font-size: 9.375vw;
+    }
+    .product img {
+        display: flex;
+        justify-content: center;
+        width:55vw;
+        height:50vw;
+        margin:0;
+    }
+    .product .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border:0px;
+        padding: 0;
+    }
+    .product_name{
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        padding:0;
+        margin-top: 5vw;
+        margin-bottom: 4vw;
+        margin-left: 0;
+    }
+
+    .word_list0
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .word_list
+    {
+        width: 25vw;
+        padding-top:5vw;
+        padding-left:5vw;
+        font-size: 3.125vw;
+        line-height:6.25vw;
+    }
+    .word_list2
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top:8vw;
+        padding-left:5vw;
+        font-size: 3.125vw;
+        line-height:6.25vw;
+    }
+    .icon{
+        display: flex;
+        flex-direction: row; 
+        padding-top:3vw;
+    }
+    .IG{
+        padding-right:1vw;
+    }
+    .LINE{
+        padding-right:1vw;
+    }
+    .wl3{
+        display: flex;
+        justify-content: flex-start;
+        padding-top:3vw;
+        padding-left: 0;
+    } 
+    footer {
+        height: 105vw;
+    }
+}
